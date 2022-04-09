@@ -1,0 +1,87 @@
+.admin{
+    width: 320px;
+    height: 420px;
+    background: rgba(99, 95, 97, 0.5);
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.admin p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.admin input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.admin input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.admin input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.admin input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #0c0c0c;
+    color: rgb(163, 250, 128);
+}
+
+
+
+.admin a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(253, 246, 246);
+}
+
+.admin a:hover
+{
+    color: #101111;
+}
+
+
+
+
+
